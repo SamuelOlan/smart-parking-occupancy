@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.vscode/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Keep data/output folders but do not commit local media by default
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+
+# Model weights and generated media
+*.pt
+*.onnx
+*.mp4
+*.avi
+*.mov
